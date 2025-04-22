@@ -46,15 +46,13 @@
   text-align: left;
 }
 
-@media (width > 992px) {
-  .grid-item:not(:nth-child(5)) .card-body p {
-    display: -webkit-box;
-    -webkit-line-clamp: 5;
-    line-clamp: 5;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
+.grid-item:not(:nth-child(5)) .card-body p {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .row {
