@@ -5,6 +5,7 @@ $posts = $wp_query->posts;
 $object = get_queried_object();
 $theme_template_name = basename(__FILE__, ".php");
 $content = wpautop($object->description) ?? "";
+$term_title = get_field('term_title', $object) ?? $object->name;
 
 ?>
 
@@ -13,7 +14,7 @@ $content = wpautop($object->description) ?? "";
             <div class="container">
                 <!-- Page Title -->
                 <div class="page-title">
-                    <h1><?=$object->name?></h1>
+                    <h1><?=$term_title?></h1>
                 </div><!-- End Page Title -->
 
                 <div class="container">

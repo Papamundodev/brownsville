@@ -44,6 +44,9 @@
 .card-resource .card-body p {
   color: var(--default-color);
   text-align: left;
+}
+
+.grid-item:not(:nth-child(5)) .card-body p {
   display: -webkit-box;
   -webkit-line-clamp: 5;
   line-clamp: 5;

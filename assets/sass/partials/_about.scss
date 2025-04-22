@@ -25,30 +25,6 @@
   }
 }
 
-.about .quote-icon-left,
-.about .quote-icon-right {
-  color: color-mix(in srgb, var(--accent-color), transparent 40%);
-  font-size: 26px;
-  line-height: 0;
-  @media (max-width: 767px) {
-    font-size: 1.2rem;
-  }
-}
-
-.about .quote-icon-left {
-  display: inline-block;
-  left: -5px;
-  position: relative;
-}
-
-.about .quote-icon-right {
-  display: inline-block;
-  transform: scale(-1, -1);
-  right: -5px;
-  position: relative;
-  top: 10px;
-}
-
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/

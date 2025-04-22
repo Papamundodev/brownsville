@@ -292,7 +292,7 @@ class Base
         $links = array();
         $home_link = array(
             'url' => home_url(),
-            'text' => 'Accueil'
+            'text' => __('Home', 'theme_base')
         );
         array_push($links, $home_link);
         $cats = get_the_category();
