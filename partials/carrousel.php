@@ -1,11 +1,13 @@
 <?php
 if(function_exists('get_field')){$insurances = get_field('insurances', 'option');}
+if(function_exists('get_field')){$insurances_info = get_field('inssurance_info', 'option');}
 
 ?>
 
-        <div class="section-title" >
+    <div class="section-title d-flex flex-column gap-2" >
         <?php if (function_exists('get_field')){$section_insurances_title = get_field('section_insurances_title', 'option') ?? __('Our Insurances', 'theme_base');}?>
         <h2><?=$section_insurances_title?></h2>
+        <p><?=$insurances_info?></p>
     </div>
 <div class="swiper init-swiper">
     <script type="application/json" class="swiper-config">

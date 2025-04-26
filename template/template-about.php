@@ -27,7 +27,7 @@ get_header();
         <div class="container">
             <?php if(function_exists('get_field')) : ?>
                 <?php
-                $address = get_field('address', 'option') ?? __('95 E. Price Rd., Bldg E, Brownsville, TX 78521', 'theme_base') ?? '';
+                $adress = get_field('adress', 'option') ?? __('95 E. Price Rd., Bldg E, Brownsville, TX 78521', 'theme_base') ?? '';
                 $phone = get_field('phone_number', 'option') ?? __('(956) 504 - 4800', 'theme_base') ?? '';
                 $google_maps_embed = get_field('google_maps_embed', 'option') ?? "";
                 $google_maps_link = get_field('google_maps_link', 'option') ?? "";
