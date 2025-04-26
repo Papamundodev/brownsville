@@ -41,7 +41,7 @@ get_header();
                                 <i class="bi bi-geo-alt flex-shrink-0"></i>
                                 <div>
                                     <h3><?=__('Address', 'theme_base');?></h3>
-                                    <p><?=$address;?></p>
+                                    <p><?=$adress;?></p>
                                 </div>
                             </a>
                         </div><!-- End Info Item -->
